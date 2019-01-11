@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="96dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_ayu"/>
+
+    <TextView
+        android:id="@+id/tv_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_below="@id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="HAZIRLAYAN\nEMRE BARAN"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/tv_student"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="DANIŞMAN\nProf. Dr. Şeref SAĞIROĞLU"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="Kullanıcılara Artırılmış Gerçekliği tanıtmak ve anket yapmak için hazırlanmış küçük bir örnek uygulamadır. Ahmet Yesevi Üniversite'nin Ankara'daki adresini ve size olan uzaklığını gösterir.\n\n© 2019"/>
+
+</RelativeLayout>
